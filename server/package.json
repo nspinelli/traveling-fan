@@ -1,0 +1,32 @@
+{
+  "name": "traveling-fan-server",
+  "version": "1.0.0",
+  "description": "Back end for the traveling fan web application. Used for creating the REST API for the front end.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nspinelli/traveling-fan.git"
+  },
+  "keywords": [
+    "venues",
+    "sports"
+  ],
+  "author": "Nick Spinelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nspinelli/traveling-fan/issues"
+  },
+  "homepage": "https://github.com/nspinelli/traveling-fan#readme",
+  "devDependencies": {
+    "dotenv": "8.2.0",
+    "nodemon": "2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1"
+  }
+}
